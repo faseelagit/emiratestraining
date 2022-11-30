@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emirates Professional Training Institute,060 575 1699</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts2/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css2/style.css">
+    <script type="text/javascript">
+   function resetForm(myFormId)
+   {
+       var myForm = document.getElementById(myFormId);
+
+       for (var i = 0; i < myForm.elements.length; i++)
+       {
+           if ('submit' != myForm.elements[i].type && 'reset' != myForm.elements[i].type)
+           {
+               myForm.elements[i].checked = false;
+               myForm.elements[i].value = '';
+               myForm.elements[i].selectedIndex = 0;
+           }
+       }
+   }
+   
+</script>
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images2/signup-img.jpg" alt="">
+                </div>
+                <div class="signup-form">
+                    <form  name = "myFormId" class="register-form" action = "register.php" method="POST" >
+                        <h2>student registration form</h2>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name in full(Capital Letters) :</label>
+                                <input type="text" name="name" id="name" autocomplete="off" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="father_name">Name of Father/Husband :</label>
+                                <input type="text" name="father_name" id="father_name" autocomplete="off" required/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Nationality :</label>
+                            <input type="text" name="nation" id="nation" autocomplete="off" required/>
+                        </div>
+                        
+                        <div class="form-radio">
+                            <label for="gender" class="radio-label">Gender :</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="male" value="male" checked>
+                                <label for="male">Male</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="female" value="female">
+                                <label for="female">Female</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>
+                         <div class="form-group">
+                            <label for="birth_date">Date of Birth :</label>
+                            <input type="date" name="birth_date" id="birth_date">
+                        </div>
+                        <div class="form-group">
+                            <label for="address"> Married/Single :</label>
+                            <input type="text" name="mstatus" id="mstatus" autocomplete="off" required/>
+                        </div>
+                        <div class="form-group">
+                        
+                            <label for="visastatus" class="radio-label">Visa Status :</label>
+                      
+                            <div class="form-radio">
+                            <div class="form-radio-item">
+                                <input type="radio" name="visastatus" id="residence" value="residence" checked>
+                                <label for="residence">Residence</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="visastatus" id="employment" value="employment">
+                                <label for="employment">Employment</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="visastatus" id="visit" value="visit" checked>
+                                <label for="visit">Visit</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="visastatus" id="other" value="other">
+                                <label for="other">Others</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>
+                        <!--<div class="form-row">
+                            <div class="form-group">
+                                <label for="state">State :</label>
+                                <div class="form-select">
+                                    <select name="state" id="state">
+                                        <option value=""></option>
+                                        <option value="us">America</option>
+                                        <option value="uk">English</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="city">City :</label>
+                                <div class="form-select">
+                                    <select name="city" id="city">
+                                        <option value=""></option>
+                                        <option value="losangeles">Los Angeles</option>
+                                        <option value="washington">Washington</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                        </div>-->
+                       
+                       <!-- <div class="form-radio">-->
+                        <div class="form-group">
+                            <label for="qual">Educational Qualification :</label>
+                            <input type="text" name="qual" id="qual" autocomplete="off" >
+                        </div>
+                        <div class="form-group">
+                            <label for="cmp">Profession/Company :</label>
+                            <input type="text" name="cmp" id="cmp" autocomplete="off" >
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Course :</label>
+                            <div class="form-select">
+                                <select name="course" id="course">
+                                    <option value=""></option>
+                                    <option value="graphicdesigning">Graphic Designing</option>
+                                    <option value="webdesigning">Web Designing</option>
+                                    <option value="interiordesigning">Interior Designing</option>
+                                    <option value="excel">Microsoft Excel</option>
+                                    <option value="msoffice">Microsoft OPffice </option>
+                                    <option value="wordpress">Wordpress Training</option>
+                                    <option value="spokeenglish">Sopken-English</option>
+                                    <option value="spokearabic">Spoken-Arabic</option>
+                                    <option value="ielts">IELTS</option>
+                                    <option value="revitarchitecture">Revit Architecture</option>
+                                    <option value="revitmep">Revit MEP</option>
+                                    <option value="revitstructure">Revit Structure</option>
+                                    <option value="autocad2d">Autocad 2D</option>
+                                    <option value="autocad3d">Autocad 3D</option>
+                                    <option value="tally">Tally</option>
+                                    <option value="quickbook">QuickBook</option>
+                                    <option value="c++">C++</option>
+                                    <option value="php">PHP</option>
+                                    <option value="java">JAVA</option>
+                                    <option value="mysql">MySql</option>
+                                    <option value="vbdotnet">VB.NET</option>
+                                </select>
+                                <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="period">Period of Study :</label>
+                            <input type="text" name="period" id="period" autocomplete="off" >
+                        </div>
+                        <div class="form-group">
+                            <label for="certificate">Do you require a Certificate attested by the KHDA U.A.E ?(Yes/No) :</label>
+                            <input type="text" name="certificate" id="certificate" autocomplete="off" >
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="mobno">Mobile No :</label>
+                                <input type="text" name="mob" id="mob" autocomplete="off" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="resno">Res/Off No :</label>
+                                <input type="text" name="resno" id="resno" autocomplete="off" required/>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="form-group">
+                            <label for="email">Email ID :</label>
+                            <input type="email" name="email" id="email" autocomplete="off" />
+                        </div>
+                        <div class="form-submit">
+                            <input type="reset" value="Reset All" class="submit" name="reset" id="reset" onclick="resetForm('myFormId'); return false;"/>
+                            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js2/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
